@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-Dec-2020, 12:37:40 PM
+    Author     : shreesoftech
+*/
+
+qtyPicker::-webkit-inner-spin-button, 
+.qtyPicker::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.cartEdit{
+    display: none;
+}

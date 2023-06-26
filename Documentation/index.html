@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>eCart - Grocery, Food Delivery, Fruits & Vegetable store, Full Android Ecommerce App
+    </title>
+    <link rel="shortcut icon"
+        href="images/app_icon.png"
+        type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"
+        href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .background {
+            background-color: #067EED;
+            color: white;
+        }
+
+        .button {
+            display: inline-block;
+            border-radius: 4px;
+            background-color: #067EED;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 28px;
+            height: 120px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+            font-size: 1.4rem;
+        }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        .logo{
+            height: 100px;
+            object-fit: contain;
+            max-width: 100%;
+        }
+
+        .center{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin: 50px auto;
+
+        }
+
+        @media (max-width:480px){
+            .header{
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            h2{
+                font-size: inherit;
+            }
+
+            .center{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+            }
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="background"
+        style="padding-top: 30px;">
+        <div class="container background">
+            <table class="table">
+                <thead>
+                    <tr class="header">
+                        <th><img src="images/app_icon.png" class="logo"
+                                alt="eCart - Grocery, Food Delivery, Fruits & Vegetable store, Full Android Ecommerce App">
+                        </th>
+                        <th style="vertical-align: middle;">
+                            <h2 style="font-weight: bolder;">
+                                eCart Single Vendor Documentation
+                            </h2>
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+        <div class="center">
+            <button class="button"
+                style="vertical-align:middle"
+                onclick="location.href = 'customer-app/index.html';"><span>Customer App</span></button>
+
+            <button class="button"
+                style="vertical-align:middle"
+                onclick="location.href = 'delivery-boy-app/index.html';"><span>Delivery Boy App</span></button>
+
+            <button class="button"
+                style="vertical-align:middle"
+                onclick="location.href = 'admin-panel/index.html';"><span>Admin Panel</span></button>
+
+            <button class="button"
+                style="vertical-align:middle"
+                onclick="location.href = 'https://docs.google.com/document/d/e/2PACX-1vQlIbDaV_TJ7m6Db5kRnsq_SFkgafGDDPwCqpQrwln1kWwcXbGMJHWaHnO_hxs4dX40C7jCXGDwmHx4/pub';"><span>FAQ</span></button>
+        </div>
+
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity">
+        <div class="w3-xlarge w3-padding-32">
+            <a href="https://www.facebook.com/wrteam.in"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/wrteam.in"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href="https://dribbble.com/Asgar_WRTeam"><i class="fa fa-dribbble w3-hover-opacity"></i></a>
+            <a href="https://www.youtube.com/channel/UCLt9XRUuiWsqKng4681_6cQ"><i
+                    class="fa fa-youtube-play w3-hover-opacity"
+                    aria-hidden="true"></i></a>
+        </div>
+
+        <p>&copy;
+            <script>
+                var CurrentYear = new Date().getFullYear()
+                document.write(CurrentYear)
+            </script> <a href="https://wrteam.in/">WRTeam</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>

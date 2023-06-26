@@ -1,0 +1,12 @@
+{
+  "type": "ser--nt",
+  "project_id": "ec--ev",
+  "private_key_id": "84728------------134b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCB-------------------xIoi------2J--------------------------R9Kp\nWh-------------1IrAIv\n-----END PRIVATE KEY-----\n",
+  "client_email": "fi---------------unt.com",
+  "client_id": "112-----------1471",
+  "auth_uri": "http-----------------h2/auth",
+  "token_uri": "htt--------------ken",
+  "auth_provider_x509_cert_url": "https:--------------rts",
+  "client_x509_cert_url": "https://w-------------iam.gserviceaccount.com"
+}

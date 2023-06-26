@@ -1,0 +1,466 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Documentation by "WRTeam "</title>
+	<meta charset="utf-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet"
+		href="assets/css/main.css" />
+</head>
+
+<body>
+	<section id="header">
+		<header>
+			<span class="image avatar"><img src="images/app_icon.jpg"
+					alt="" /></span>
+			<h4 id="logo"><a href="#">eCart Delivery Boy</a></h4>
+		</header>
+		<nav id="nav">
+			<ul>
+				<li><a href="#one">Introduction</a></li>
+				<li><a href="#note">Note</a></li>
+				<li><a href='#appname'>How to change the app name?</a></li>
+				<li><a href='#packagename'>How to change the package name?</a></li>
+				<li><a href='#admin'>How to change server url to application?</a></li>
+				<li><a href='#firebase_app'>How to create firebase app?</a></li>
+				<li><a href='#optional'>Some optional points</a></li>
+				<li><a href="#support">Need Support?</a></li>
+				<li><a href="#rating">Your Feedback</a></li>
+				<li><a href="#contactus">Contact Us</a></li>
+				<br><br><br>
+			</ul>
+		</nav>
+	</section>
+	<div id="wrapper">
+		<div id="main">
+			<section id="one">
+				<div class="container">
+					<header class="major">
+						<h2>eCart Delivery Boy</h2>
+					</header>
+					<div class="borderTop">
+						<div class="span-12 last">
+							<p class="prepend-top append-0">Thank you for purchasing code. It really means a lot and
+								It's our pleasure to serve top-notch service to you. Thank you so much for choosing<a
+									href="https://wrteam.in/"
+									style='color:#3c55d1'
+									target="_blank"> WRTeam </a>. If you
+								have trouble with the code and documentation please contact to our Support Team <a
+									href="#support"
+									style="color:#3c55d1">Here</a></li>.
+						</div>
+						<section id="note">
+							<div class="container">
+								<h2 style="color:red;"
+									;>Note for exist customer</h2>
+								<li>You should change just android code do not follow any firebase related points for
+									android configuration.</li>
+								<li>Just follow below steps:</li>
+								<ol>
+									<li><a href="#appname"
+											id="appname-link"
+											class="active">How to change the app
+											name?</a></li>
+									<li><a href="#packagename"
+											id="packagename-link"
+											class="active">How to change the
+											package name?</a></li>
+									<li><a href="#admin"
+											id="admin-link"
+											class="">How to change server url to
+											application?</a></li>
+									<li><a href="#optional"
+											id="optional-link"
+											class="active">Some optional points</a>
+									</li>
+									<li><a href="#note">Download google json file from firebase and replace it with
+											exist google json file in android folder.</a></li>
+									<br>
+									<a href="#note"><img src="images/change_google_json_file.jpg"></a>
+								</ol>
+							</div>
+						</section>
+						<section id="appname">
+							<div class="container">
+								<br>
+								<h2>How to change app name? </h2>
+								<p>
+									<li>Open Android Studio > app > res > values > strings.xml</li>
+									<li>Enter your app name inside <b>"app_name"</b> string tag:<br />
+										<code>&lt;string name="app_name"&gt;<b>eCart Delivery Boy</b>&lt;/string&gt;</code>
+									</li>
+									<li>You can also change other string text here.</li>
+								</p>
+								<a href="#appname"><img src="images/change_app_name_here.jpg"></a>
+								<div class="section_bdr"></div>
+							</div>
+						</section>
+						<section id="packagename">
+							<div class="container">
+								<br>
+								<h2>How to change package name? </h2>
+								<p>
+									<li>If in you android studio Delivery Boy Project already compact middle package
+										unchecked then you can skip step 1.</li>
+								</p>
+								<div class="section_bdr"></div>
+							</div>
+						</section>
+						<section id="package_name_step_1">
+							<div class="container">
+								<li>Step 1</li>
+								<p>
+									<li>Unchecked "compact middle package".</li>
+								</p>
+								<br>
+								<a href="#admin"><img src="images/change_package_name_1.jpg"></a>
+								<br>
+								<div class="section_bdr"></div>
+								<br>
+								</ul>
+							</div>
+						</section>
+						<section id="package_name_step_2">
+							<div class="container">
+								<li>Step 2</li>
+								<p>
+									<li>There are three folders that you can change their name. </li>
+								<ol>
+									<li>wrteam</li>
+									<li>ekart</li>
+									<li>dboy</li>
+								</ol>
+								<li>Select particular package, Open option menu > Goto Refactor > Rename</li>
+								</p>
+								<br>
+								<a href="#admin"><img src="images/change_package_name_2.jpg"></a>
+								<br>
+								<div class="section_bdr"></div>
+								<br>
+								</ul>
+							</div>
+						</section>
+						<section id="package_name_step_3">
+							<div class="container">
+								<li>Step 3</li>
+								<p>
+									<li>Change package name from here</li>
+									<li>Click on refactor</li>
+								</p>
+								<br>
+								<a href="#admin"><img src="images/change_package_name_3.jpg"></a>
+								<br>
+								<div class="section_bdr"></div>
+								<br>
+								</ul>
+							</div>
+						</section>
+						<section id="package_name_step_4">
+							<div class="container">
+								<li>Step 4</li>
+								<p>
+									<li>Click on Do refactor, Package name will be changed.</li>
+									<li>You can change package name three of them one by one.</li>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. wrteam
+									<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 .ekart
+									<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. dboy
+								</p>
+								<br>
+								<a href="#admin"><img src="images/change_package_name_4.jpg"></a>
+								<br>
+								<div class="section_bdr"></div>
+								<br>
+								</ul>
+							</div>
+						</section>
+						<section id="package_name_step_5">
+							<div class="container">
+								<li>Step 5</li>
+								<p>
+									<li>Change package name in app level gradle file.</li>
+								</p>
+								<br>
+								<a href="#admin"><img src="images/change_package_name_5.jpg"></a>
+								<br>
+								<div class="section_bdr"></div>
+								<br>
+								</ul>
+							</div>
+						</section>
+						<section id="package_name_step_6">
+							<div class="container">
+								<li>Step 6</li>
+								<p>
+									<li>Set same package name in AndroidManifest.xml file.</li>
+								</p>
+								<a href="#admin"><img src="images/change_package_name_6.jpg"></a>
+								<br>
+								<div class="section_bdr"></div>
+								<br>
+								</ul>
+							</div>
+						</section>
+						<section id="admin">
+							<br>
+							<p>
+							<div class="container">
+								<h2>How to change admin page url in application?</h2>
+								<li>Go to android >app >java > com.wrteam.dboy > helper > Constant.java </li>
+								<li>Change admin panel url (Main admin panel Not a delivery bsoy panel) & JWT Key
+									instruction given in below image.</li>
+								<li>Also change JWT Key instruction given in below image.</li>
+								<li>Note : JWT secret key is just like password & You can create your own.It should be
+									same in ekart app, delivery boy app,as well as php side.</li>
+								<br><a href="#admin"><img src="images/change_admin_page_url.jpg"></a><br>
+								<br>
+								</p>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+							</p>
+						</section>
+						<section id="firebase_app">
+							<div class="container">
+								<h2>Create Firebase Project for Application.</h2>
+								<ul>
+									<li>We ned Firebase project for Firebase PushNotification.</li>
+									<li>Here is steps for craete project.</li>
+									<li>Goto <a
+											href="https://console.firebase.google.com">https://console.firebase.google.com</a>
+									</li>
+									<li>You have to create ekart delivry boy firebase app in exist ekart firebase app.
+									</li>
+									<li>If you are going to create saperate project for eCart Delivery Boy:</li>
+									<ol>
+										<li>Reset password service will not work.</li>
+										<li><strong style="color:red;">Important</strong> thing is delivery boy will not
+											get order assign notification as well as all kind of notifications.</li>
+									</ol>
+									<li>Select project which you are created for Ekart app & go to EKart Project's
+										dashboard.</li>
+									<li>There are few steps to create Delivery Boy android firebase app.</li>
+									<br>
+								</ul>
+							</div>
+						</section>
+						<section id="firebase_app_step_1">
+							<div class="container">
+								<li>Step 1</li>
+								<br>
+								<a href="#admin"><img src="images/create_firebase_app_step_1.jpg"></a>
+								<br>
+								<div class="section_bdr"></div>
+								<br>
+								</ul>
+							</div>
+						</section>
+						<section id="firebase_app_step_2">
+							<div class="container">
+								<li>Step 2</li>
+								<br>
+								<a href="#admin"><img src="images/create_firebase_app_step_2.jpg"></a>
+								<br>
+								<div class="section_bdr"></div>
+								<br>
+								</ul>
+							</div>
+						</section>
+						<section id="firebase_app_step_3">
+							<div class="container">
+								<br>
+								<li>Step 3</li>
+								<br>
+								<a href="#admin"><img src="images/create_firebase_app_step_3.jpg"></a>
+								<br /><br /><img src="images/signingReport.gif"></a><br />
+								<br>
+								<div class="section_bdr"></div>
+								<br>
+								</ul>
+							</div>
+						</section>
+						<section id="firebase_app_step_4">
+							<div class="container">
+								<br>
+								<li>Step 4</li>
+								<br>
+								<a href="#admin"><img src="images/create_firebase_app_step_4.jpg"></a>
+								<br>
+								<div class="section_bdr"></div>
+								<br>
+								</ul>
+							</div>
+						</section>
+						<section id="firebase_app_step_5">
+							<div class="container">
+								<br>
+								<li>Step 5</li>
+								<br>
+								<a href="#admin"><img src="images/create_firebase_app_step_5.jpg"></a>
+								<br>
+								<div class="section_bdr"></div>
+								<br>
+								</ul>
+							</div>
+						</section>
+						<section id="firebase_app_step_6">
+							<div class="container">
+								<br>
+								<li>Step 6</li>
+								<br>
+								<a href="#admin"><img src="images/create_firebase_app_step_6.jpg"></a>
+								<br>
+								<div class="section_bdr"></div>
+								<br>
+								</ul>
+							</div>
+						</section>
+
+						<section id="note">
+							<div class="container">
+								<br>
+								<li><strong style="color:red;">Note</strong></li>
+								<li>There was <b>three</b> type of SHA-1.</li>
+								<ul>
+									<li><b>Debug SHA-1 : </b> you can get this sha from your android stuido.</li>
+									<li><b>Release SHA-1 :</b> when you create keystore(.jks) file for generate sign
+										apk. you can get release sha from your key store file.
+										Use this Desktop App for get release sha from keystore file. <a
+											href="https://keystore-explorer.org/"
+											target="_blank">KeyStore Explorer.</a>
+										Add this sha in your firebase project when you test realese apk.</li>
+									<li><b>Sign SHA-1:</b>You have add this sha when you publish your app on playstore.
+										You can get this sign sha from your PlayConsole. Without Sign sha your google
+										login not work when your app published on PlayStore.</li>
+									<li>For App signing certificate go to > Play Console > Select your App > Release
+										Management > App Signing </li>
+									<br><a href="#gooleLogin"><img src="images/singing.jpg"></a><br><br>
+								</ul>
+							</div>
+						</section>
+
+						<section id="optional">
+							<div class="container">
+								<br>
+								<h2>How to change app language?</h2>
+								<li>If you want to change the app language to your regional language follow below</li>
+
+								<ol>
+									<li>Go to res (folder) > values > strings.xml, Change all string's values in you
+										language. (Note : If you are changeing privacy policy and terms condition word
+										then then in word which you use in 'privacy_policy' and 'terms_conditions' these
+										two words should be same in 'msg_privacy_terms' string.</li>
+									<br>
+									<a href="#optional"><img src="images/chang_app_language_step1.jpg"></a>
+									<br>
+									<li>Open <a
+											href="https://developers.google.com/admin-sdk/directory/v1/languages">https://developers.google.com/admin-sdk/directory/v1/languages</a>
+										copy the code of your language.
+									<li>Go to Line number <strong>13</strong> replace the your language code value.</li>
+									<br>
+
+									<a href="#optional"><img src="images/COUNTRYCODE.jpg"></a>
+
+								</ol>
+
+								<br>
+								<h2>How to set country code static?</h2>
+								<li>Go to activity > LoginActivity.java</li>
+								<li>Follow below</li>
+								<br>
+								<a href="#optional"><img src="images/chang_app_language_step2.jpg"></a>
+
+								<br>
+								<h2>How to change app icon?</h2>
+								<li>Follow this link to change/create your app icon <a
+										href="https://developer.android.com/studio/write/image-asset-studio">https://developer.android.com/studio/write/image-asset-studio</a>.
+								</li>
+
+
+						</section>
+
+						<section id="support">
+							<div class="container">
+								<br>
+								<h2>Need Support?</h2>
+								<p>Its our pleasure to serve our service and support. please conatct our support team.
+								</p>
+								<p>Head of Customer Support : Vimal Gondariya <a
+										href="https://join.skype.com/invite/xAUIVO4XVCqx"
+										target="_blank"
+										style='color:#3c55d1'>Skype Name : Vimal Gondariya</a></p>
+								<p>To help our customers, we constantly be in touch with every customer if they need any
+									assistance regarding our product.
+									We offer our customers a support from <strong> Mon – Fri 9.00am to 6.00pm IST (GMT
+										+5.30) – We are a Team located in India – Asia.</strong>
+								</p>
+								<p>Typically we reply our customers for all the questions and queries within 24 hours of
+									time via comments, support forum or emails.</p>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+						</section>
+						<section id="rating">
+							<div class="container">
+								<br>
+								<h2>Your Feedback </h2>
+								<p>Dear valuable customer,
+									Thank you very much for choosing our product.
+									It's our pleasure to serve top-notch service to you.
+									Please give us your honest feedback that will help us to make a more strong and
+									reliable product by click here <a href="https://codecanyon.net/downloads"
+										style='color:#3c55d1'
+										target="_blank">Rate Us</a>.
+									Thank you very much.
+								</p>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+						</section>
+						<section id="contactus">
+							<div class="container">
+								<br>
+								<h2>Contact Us</h2>
+								<p>WRTeam has creative and dedicated group of developers who are mastered in Apps
+									Developments and Web Application Development with a niche in delivering quality
+									solutions to customers across the globe.
+									Contact us today to find out how we can help you or for freelance work.
+								<p>Visit Us : <a href="https://wrteam.in/"
+										target="_blank"><span style="color:#0e8bcb;">https://wrteam.in</span> </a>
+								<p>Mail Us : support@wrteam.in</p>
+								<p>Thank you very much.</p>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+						</section>
+					</div>
+				</div>
+				<!-- Scripts -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/jquery.scrollzer.min.js"></script>
+				<script src="assets/js/jquery.scrolly.min.js"></script>
+				<script src="assets/js/skel.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+				<script src="assets/js/main.js"></script>
+				<script type="text/javascript">
+					$(document).ready(function () {
+						$(window).scroll(function () {
+							if ($(this).scrollTop() > 100) {
+								$('.scrollup').fadeIn();
+							} else {
+								$('.scrollup').fadeOut();
+							}
+						});
+						$('.scrollup').click(function () {
+							$("html, body").animate({ scrollTop: 0 }, 600);
+							return false;
+						});
+					});
+				</script>
+				<div><a href="#"
+						class="scrollup">Scroll</a></div>
+</body>
+
+</html>

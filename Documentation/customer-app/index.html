@@ -1,0 +1,541 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Documentation by "WRTeam "</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+	<section id="header">
+		<header>
+			<span class="image avatar"><img src="images/app_icon.jpg" alt="" /></span>
+			<h4 id="logo"><a href="#">eCart</a></h4>
+		</header>
+		<nav id="nav">
+			<ul>
+				<li><a href='#note'>Note</a></li>
+				<li><a href='#appname'>How to change the app name?</a></li>
+				<li><a href='#packagename'>How to change package name?</a></li>
+				<li><a href='#admin'>How to change server url to application?</a></li>
+				<li><a href='#deep'>DeepLinking</a></li>
+				<li><a href='#create_fcm'>Create Firebase Project for Application.</a></li>
+				<li><a href='#fcm'>How to Integrate Firebase Cloud Messaging in app?</a></li>
+				<li><a href='#firebase_otp'>Enable Firebase Phone Authentication(OTP).</a></li>
+				<li><a href='#map'>Enable Map SDK From Cloud Plateform.</a></li>
+				<li><a href='#jwt'>Where to set JWT Key in Android.</a></li>
+				<li><a href='#limit'>Increase Product Load Limit</a></li>
+				<li><a href='#constant'>Constant</a></li>
+				<li><a href='#optional'>Some optional points</a></li>
+				<li><a href='#animation'>Change animation color</a></li>
+				<li><a href='#animation_change'>Change animation file</a></li>
+				<li><a href="#support">Need Support?</a></li>
+				<li><a href="#rating">Your Feedback</a></li>
+				<li><a href='#contactus'>Contact Us</a></li>
+				<br><br><br>
+			</ul>
+		</nav>
+	</section>
+	<div id="wrapper">
+		<div id="main">
+			<section id="one">
+				<div class="container">
+					<header class="major">
+						<h2>eCart</h2>
+					</header>
+					<div class="borderTop">
+						<div class="span-12 last">
+							<p class="prepend-top append-0">Thank you for purchasing code. It really means a lot and
+								It's our pleasure to serve top-notch service to you. Thank you so much for choosing<a
+									href="https://wrteam.in/" style='color:#3c55d1' target="_blank"> WRTeam </a>. If you
+								have trouble with the code and documentation please contact to our Support Team <a
+									href="#support" style="color:#3c55d1">Here</a></li>.
+						</div>
+						<section id="note">
+							<div class="container">
+								<h2 style="color:red;" ;>Note for exist customer</h2>
+								<li>You should change just android code do not follow any firebase related points for
+									android configuration.</li>
+								<li>Just follow below steps:</li>
+								<ol>
+									<li><a href="#appname" id="appname-link" class="active">How to change the app
+											name?</a></li>
+									<li><a href="#packagename" id="packagename-link" class="">How to change package
+											name?</a></li>
+									<li><a href="#admin" id="admin-link" class="active">How to change server url to
+											application?</a></li>
+									<li><a href="#deep" id="deep-link" class="">DeepLinking</a></li>
+									<li><a href="#jwt" id="jwt-link" class="active">Where to set JWT Key in Android and
+											PHP.</a></li>
+									<li><a href="#limit" id="limit-link" class="">Increase Product Load Limit</a></li>
+									<li><a href="#optional" id="optional-link" class="active">Some optional points</a>
+									</li>
+									<li><a href='#firebase_otp'>Enable Firebase Phone Authentication(OTP).</a></li>
+									<li><a href="#note">Download google json file from firebase and replace it with
+											exist google json file in android folder.</a></li>
+									<br>
+								</ol>
+
+
+								<br>
+								<a href="#admin"><img src="images/admin.jpg"></a><br>
+								<br>
+								</p>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+						</section>
+						<section id="appname">
+							<div class="container">
+								<br>
+								<h2>How to change app name? </h2>
+								<p>
+									<li>Open Android Studio > app > res > values > strings.xml</li>
+									<li>Enter your app name inside <b>"app_name"</b> string tag:<br />
+										<code>&lt;string name="app_name"&gt;<b>eCart</b>&lt;/string&gt;</code>
+									</li>
+								</p>
+								<a href="#appname"><img src="images/appname_1.jpg"></a>
+								<div class="section_bdr"></div>
+							</div>
+						</section>
+
+						<section id="packagename">
+							<div class="container">
+								<br>
+								<h2>How to change the package name? </h2>
+								<p> You can change it easily from Android Studio. Here are the steps:
+									You can change it easily from Android Studio. Here are the steps:
+									<li>In the Android pane, click on the little gear icon.Uncheck/Deselect the Compact
+										Empty Middle
+										Packages option.
+									</li>
+									<li>Your package directory will now be broken up in individual directories.</li>
+									<li>Individually select each directory you want to rename, and: Right-click itSelect
+										RefactorClick on
+										RenameIn the Pop-up dialog.
+									</li>
+									<li>Click on Rename Package instead of Rename Directory Enter the new name and hit
+										RefactorAllow a
+										minute to let Android Studio update all changes.
+									</li>
+									<li>Now open your build.gradle (Usually 'app' or 'mobile'). Update the applicationId
+										to your Package
+										Name and Sync Gradle, if it hasn't already been updated automatically.
+									</li>
+									<br>
+									Note: When renaming com in Android Studio, it might give a warning. In such case,
+									selectRename All.
+								</p>
+								<a href="#packagename"><img src="images/packagename_1.jpg"></a><br>
+								<br>
+								<a href="#packagename"><img src="images/packagename_2.jpg"></a><br>
+								<br>
+								<a href="#packagename"><img src="images/packagename_3.jpg"></a><br>
+								<br>
+								<a href="#packagename"><img src="images/packagename_4.jpg"></a><br>
+								<br>
+								<a href="#packagename"><img src="images/packagename_5.jpg"></a><br>
+								<br>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+						</section>
+						<section id="admin">
+							<div class="container">
+								<h2>How to change admin page url in application?</h2>
+								<li>go to android >app >java > wrteam.ekart.shop> helper >Constant.java </li>
+								<li>we also add other config in Constant.java class. </li>
+								<br>
+								<a href="#admin"><img src="images/admin.jpg"></a><br>
+								<br>
+								</p>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+						</section>
+						<section id="deep">
+							<div class="container">
+								<h2>DeepLinking</h2>
+								<li>go to android >app >menifest.xml </li>
+								<li>>Add domain name in menifest file for deeplinking.</li>
+								<a href="#deep"><img src="images/deep.jpg"></a><br><br>
+								<div class="section_bdr"></div>
+							</div>
+						</section>
+						<section id="create_fcm">
+							<div class="container">
+								<h2>Create Firebase Project for Application.</h2>
+								<li>We need Firebase project for <b>Firebase PushNotification.</b> </li>
+								<li>here is steps for craete project.</li>
+								<br>
+								<a href="#create_fcm"><img src="images/create1.jpg"></a><br><br>
+								<a href="#create_fcm"><img src="images/create2.jpg"></a><br><br>
+								<a href="#create_fcm"><img src="images/create3.jpg"></a><br><br>
+								<a href="#create_fcm"><img src="images/create4.jpg"></a><br><br>
+								<a href="#create_fcm"><img src="images/create5.jpg"></a><br><br>
+								<a href="#create_fcm"><img src="images/create6.jpg"></a><br><br>
+								<a href="#create_fcm"><img src="images/create7.jpg"></a><br><br>
+								<br>
+								</p>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+						</section>
+						<section id="fcm">
+
+							<div class="container">
+								<h2>How to Integrate Firebase Cloud Messaging in app?</h2>
+								<p style=" margin-bottom:0px !important"> <b>Integrating Firebase Cloud
+										Messaging</b></br>
+								<h4>Sending Messages from PHP Backend</h4>
+								<li>Add <b>Firebase Server Key</b> in notification setting. Get server key from your
+									firebase project and
+									set in panel.
+								</li>
+								<br /><img src="images/notification1.jpg"></a><br /><br />
+								<br /><img src="images/notification.jpg"></a>
+								</p>
+							</div>
+						</section>
+						<section id="firebase_otp">
+							<div class="container">
+								<h2>Enable Firebase Phone Authentication(OTP).</h2>
+								<li>Open your firebase console. </li>
+								<li>Go to Authentication and open Sign-in method.</li>
+								<li>Enable Phone Sign-in method and save.</li>
+								<li>Other verification code already done in android code.So, we don't have to add extra
+									code for
+									firebase OTP.</li>
+								<br /><img src="images/otp_1.jpg"></a><br />
+								<br /><img src="images/otp_2.jpg"></a><br />
+								<br /><img src="images/otp_3.jpg"></a><br /><br />
+								<h4>Add SHA1 and SHA256 Key in Firebase setting</h4>
+								<br /><img src="images/otp_sha_1.jpg"></a><br />
+								<br /><img src="images/signingReport.gif"></a><br />
+								<br /><img src="images/otp_sha_2.jpg"></a><br />
+								<h4>Note: </h4>
+								<li>When we upadte Application on playstore we have to Add Signature SHA1 and SHA256 in
+									Firebase setting.Here ispath where you can get SHA1 and SHA256 from PlayConsole.
+								</li>
+								<br /><img src="images/otp_sha_3.jpg"></a><br />
+								<li><b>Note : </b></li>
+								<li>if you not received OTP check points is aready done or not.</li>
+								<li>1. Enabled phone sign in in firebase?</li>
+								<li>2. Added SHA1 and SHA256 key in firebase project setting?</li>
+								<li>3. Added google-service.json file in android project.</li>
+								<li>4. package name should be same in firebase and android.</li>
+								<li>5. change application id as package name in build,gradle file ?</li>
+								<li>5. Rebuild Project and installl new apk.</li>
+								</p>
+							</div>
+						</section>
+						<section id="map">
+							<div class="container">
+								<h2>Enable Map SDK From Cloud Plateform.</h2>
+								<li>Open your firebase project.</li>
+								<li>Go to Project Setting and follow below steps :</li>
+								<a href="#map"><img src="images/map1.jpg"></a><br><br>
+								<a href="#map"><img src="images/map2.jpg"></a><br><br>
+								<a href="#map"><img src="images/map3.jpg"></a><br><br>
+								<a href="#map"><img src="images/map4.jpg"></a><br><br>
+								<a href="#map"><img src="images/map5.jpg"></a><br><br>
+								<a href="#map"><img src="images/map6.jpg"></a><br><br>
+								<div class="section_bdr"></div>
+							</div>
+
+
+							<section>
+								<h4>Add or replace google-services.json files from firebase to android code</h4>
+								<br /><img src="images/google_json1.png"></a><br />
+								<br /><img src="images/google_json2.png"></a><br />
+								<br /><img src="images/google_json3.png"></a><br />
+								<br /><img src="images/google_json4.png"></a><br />
+								<h4>Note: </h4>
+								<li>When we upadte Application on playstore we have to Add Signature SHA1 and SHA256 in
+									Firebase setting.Here ispath where you can get SHA1 and SHA256 from PlayConsole.
+								</li>
+
+								<h2>It's compulsory to follow these steps otherwise OTP will not work properly</h2>
+								<ol>
+									<li>If its debug apk</li>
+									<ol>
+										<li>Add sha1 and sha256 in firebase from android studio</li>
+									</ol>
+								</ol>
+								<ol>
+									<li>If you are using playstore app,
+										<ol>
+											<li>Add sha1 and sha256 (Total 4 keys 2
+												sha1 and 2 sha256) in firebase from
+												playconsole (App signing key certificate [sha1 and sha256] and Upload
+												key certificate [sha1 and sha256]
+												)</li><br />
+											<img src="images/otp_sha_3.png"></a><br />
+										</ol>
+									</li>
+								</ol>
+								<ol>
+									<li>If play console app not available than do the follow the below steps</li>
+									<ol type="a">
+										<li>Download keystore explorer (Download link :
+											<a href="https://keystore-explorer.org">https://keystore-explorer.org</a>)
+										</li>
+										<li>Install keystore explorer</li>
+										<li>Open keystore via keystore explorer</li>
+										<li>Enter password</li>
+										<li>Click your keystore name</li>
+										<li>then you will get the sha1 & sha256 key add that both key in firebase
+										</li>
+									</ol>
+									<li>Enable device verification from firebase (Documentation is there)</li>
+									<li>Download json file from firebase and add it into android code (Documentation
+										is
+										there)</li>
+									<li>Run app from PlayStore/Android Studio or Create new APK and check</li>
+								</ol>
+
+							</section>
+							<section id="jwt">
+								<div class="container">
+									<h2>Where to set JWT Key in Android and PHP.</h2>
+									<li>go to android >app >java > wrteam.ekart.shop > helper > Constant.java</li>
+									<li>JWT Key is ju st like password you can create your own and it must be same in
+										eCart App, eCart Delivery Boy App as well as Php side.</li>
+									<li>Please check below given image.</li>
+									<a href="#jwt"><img src="images/admin.jpg"></a><br>
+									<div class="section_bdr"></div>
+								</div>
+							</section>
+
+							<section id="limit">
+								<div class="container">
+									<h2>Increase Product Load Limit</h2>
+									<li>go to android >app >java > wrteam.ekart.shop > helper >Constant.java </li>
+									<li>Please check below given image.</li>
+									<a href="#jwt"><img src="images/admin.jpg"></a><br>
+									<div class="section_bdr"></div>
+								</div>
+							</section>
+
+							<section id="constant">
+								<div class="container">
+									<h2>Constant</h2>
+									<li>go to android >app >java > wrteam.ekart.shop > helper > Constant.java </li>
+									<li>Api and api parameter are listed in Constant.java class</li>
+									<a href="#constant"><img src="images/constant.jpg"></a><br><br>
+									<div class="section_bdr"></div>
+								</div>
+							</section>
+
+							<section id="optional">
+								<div class="container">
+									<br>
+									<h2>How to change app language?</h2>
+									<li>If you want to change the app language to your regional language follow below
+									</li>
+
+									<ol>
+										<li>Go to res (folder) > values > strings.xml, Change all string's values in
+											your language. (<strong>Note</strong> For privacy policy and terms and
+											condition whatever you set words in privacy_policy and terms_conditions that
+											words must be contain in msg_privacy_terms.Other wise app will crash)</li>
+										<br>
+										<a href="#optional"><img src="images/chang_app_language_step1.jpg"></a>
+										<br>
+										<li>Go to activity > MainActivity.java</li>
+										<li>Open <a
+												href="https://developers.google.com/admin-sdk/directory/v1/languages">https://developers.google.com/admin-sdk/directory/v1/languages</a>
+											copy the code of your language.
+										<li>Go to Line number <strong>22</strong> and replace the value with your
+											language code.</li>
+										<br>
+
+										<a href="#optional"><img src="images/chang_app_language_step2.jpg"></a>
+										<br>
+									</ol>
+
+									<br>
+									<h2>How to set country code default or set static country?</h2>
+									<li>Go to activity > LoginActivity.java</li>
+									<li>You will get county code <a href="CountryCode.html">here</a>, Copy code from
+										table.</li>
+									<li>Replace your country code in line number <strong>211</strong> between
+										<strong>"</strong>CODE<strong>"</strong>.
+									</li>
+									<img src="images/CONTRYCODE.jpg">
+									<div class="section_bdr"></div>
+
+									<br>
+									<h2>How to change app icon?</h2>
+									<li>Follow this link to change/create your app icon <a
+											href="https://developer.android.com/studio/write/image-asset-studio">https://developer.android.com/studio/write/image-asset-studio</a>.
+									</li>
+									<div class="section_bdr"></div>
+								</div>
+							</section>
+
+							<section id="animation">
+								<div class="container">
+									<br>
+									<h2 style="color:red;" ;>Note : We are only responsible for exist animation, If you
+										can change whole animation we can not help for it. we can only help if any issue
+										occures by changing color of animation.</h2>
+									<h2>How to change animation color?</h2>
+									<li>You can change animation color by follow steps:</li>
+
+									<ol>
+										<li>Open Browser and Goto website <strong><a
+													href="https://lottiefiles.com">https://lottiefiles.com</a></strong>
+											and login or create account and login.</li>
+										<li>Goto <strong><a
+													href="https://lottiefiles.com/editor">https://lottiefiles.com/editor</a></strong>
+										</li>
+										<a href="#animation"><img src="images/chang_animation_color_step1.jpg"></a>
+										<li>Select add_to_wish_list.json file from assest folder <strong>../Main Code
+												v2.0.10/eCart Android/eCart v2.0.10/eCart
+												v2.0.10/app/src/main/assets</strong> and open</li>
+										<a href="#animation"><img src="images/chang_animation_color_step2.jpg"></a>
+										<li>Follow below image</li>
+										<a href="#animation"><img src="images/chang_animation_color_step3.jpg"></a>
+										<li>Do the same with placed_order.json</li>
+									</ol>
+									<div class="section_bdr"></div>
+								</div>
+							</section>
+
+							<section id="animation_change">
+								<div class="container">
+									<br>
+									<h2 style="color:red;" ;>Note : We are only responsible for exist animation, If you
+										change whole animation we can not help for it.</h2>
+									<h2>How to change animation?</h2>
+									<li>You can change animation by follow steps:</li>
+
+									<ol>
+										<li>Open Browser and Goto website <strong><a
+													href="https://lottiefiles.com">https://lottiefiles.com</a></strong>
+											and login or create account and login.</li>
+										<li>Search animation only in lottiefiles modify acording your requirement and
+											download that json file rename that file as per exist file in android code
+											assest file and replace it in the android code</strong>
+										</li>
+										<li>You can do the same with all exist files in the android code.</li>
+										<li style="color:red;" ;>Note : You need set file name same as per exist files
+											in android code, if file name will be changes even caps and small also then
+											it will not works and it will throws error and that will be not part of
+											support you need to handle it from your side.</li>
+
+									</ol>
+									<div class="section_bdr"></div>
+								</div>
+							</section>
+
+							<section id="support">
+								<div class="container"> <br>
+									<h2>Need Support?</h2>
+									<p>Its our pleasure to serve our service and support. please contact our support
+										team.
+									</p>
+									<p>Head of Customer Support : Vimal Gondariya,<br> Skype: <a
+											href="https://join.skype.com/invite/xAUIVO4XVCqx" target="_blank"
+											style='color:#3c55d1'> Vimal Gondariya</a></p>
+
+									<p>To help our customers, we constantly be in touch with every customer if they need
+										any
+										assistance
+										regarding our product.
+										We offer our customers a support from <strong> Mon – Fri 9.00am to 6.00pm IST
+											(GMT
+											+5.30) – We are a
+											Team located in India – Asia.</strong></p>
+
+									<p>Typically we reply our customers for all the questions and queries within 24
+										hours of
+										time via
+										comments, support forum or emails.</p>
+
+
+									</ul>
+								</div>
+							</section>
+
+							<section id="rating">
+								<div class="container"> <br>
+									<h2>Your Feedback </h2>
+									<p>Dear valuable customer,
+										Thank you very much for choosing our product.
+										It's our pleasure to serve top-notch service to you.
+										Please give us your honest feedback that will help us to make a more strong and
+										reliable product by
+										click here <a href="https://codecanyon.net/downloads" style='color:#3c55d1'
+											target="_blank">Rate
+											Us</a>.
+										Thank you very much.</p>
+
+
+									</ul>
+								</div>
+							</section>
+
+							<section id="contactus">
+								<div class="container"> <br>
+									<h2>Contact Us</h2>
+									<p>WRTeam has creative and dedicated group of developers who are mastered in Apps
+										Developments and Web
+										Application Development with a niche in delivering quality solutions to
+										customers
+										across the globe.
+										Contact us today to find out how we can help you or for freelance work.
+									<p>Visit Us : <a href="https://wrteam.in/" target="_blank"><span
+												style="color:#0e8bcb;">https://wrteam.in</span>
+										</a>
+									<p>Mail Us : support@wrteam.in</p>
+									<p>Thank you very much.</p>
+									<div class="section_bdr"></div>
+									</ul>
+								</div>
+							</section>
+
+					</div>
+					<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>
+									<h3>
+										<a href="https://wrteam.in/" target="_blank"><span
+												style="color:#0e8bcb;font-style:italic;font-size: 35px">WRTeam</span>
+										</a>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/jquery.scrollzer.min.js"></script>
+				<script src="assets/js/jquery.scrolly.min.js"></script>
+				<script src="assets/js/skel.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script>
+				<script type="text/javascript">
+					$(document).ready(function () {
+						$(window).scroll(function () {
+							if ($(this).scrollTop() > 100) {
+								$('.scrollup').fadeIn();
+							} else {
+								$('.scrollup').fadeOut();
+							}
+						});
+						$('.scrollup').click(function () {
+							$("html, body").animate({ scrollTop: 0 }, 600);
+							return false;
+						});
+					});
+				</script>
+				<div><a href="#" class="scrollup">Scroll</a></div>
+</body>
+
+</html>
